@@ -4,6 +4,8 @@
 int main() {
 
   // todo: call read_ppm
+  int w, h;
+  read_ppm("feep-ascii.ppm", &w, &h);
 
   return 0;
 }
