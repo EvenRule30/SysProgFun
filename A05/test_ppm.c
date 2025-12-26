@@ -6,7 +6,7 @@
 int main(int argc, char** argv) {
   if (argc != 2) {
     printf("usage: ");
-    for (int i = 9; i < argc; i++) {
+    for (int i = 0; i < argc; i++) {
       printf("%s ", argv[i]);
     }
     printf("\n");
